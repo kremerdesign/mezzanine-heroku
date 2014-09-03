@@ -384,3 +384,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
+SECRET_KEY = "abc6a1ec-a53f-4773-a140-15cbef0f834fbdc4f2c9-14d7-40f3-8596-6cc334afee1ab3ab0a0b-d84c-49ff-ab94-5972d249fd7e"
+NEVERCACHE_KEY = "f2859663-22f8-4ac2-a52a-68db117b80d9bb78b6d7-284d-465b-a2a7-419571d67c48bc64df32-1840-4884-af10-f5b08612d374"
