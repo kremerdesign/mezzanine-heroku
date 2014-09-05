@@ -1,1 +1,1 @@
-web: gunicorn wsgi --log-file -
+web: gunicorn test_mezzanine.wsgi --log-file -
