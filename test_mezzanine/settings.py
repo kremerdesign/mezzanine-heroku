@@ -165,9 +165,9 @@ FILE_UPLOAD_PERMISSIONS = 0o644
 DATABASES = {
     "default": {
         # Add "postgresql_psycopg2", "mysql", "sqlite3" or "oracle".
-        "ENGINE": "django.db.backends.",
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
         # DB name or path to database file if using sqlite3.
-        "NAME": "",
+        "NAME": "test_mezzanine",
         # Not used with sqlite3.
         "USER": "",
         # Not used with sqlite3.
@@ -350,6 +350,7 @@ STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
+    # os.path.join(BASE_DIR, 'static'),
     'static',
 )
 
