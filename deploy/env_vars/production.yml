@@ -7,7 +7,7 @@ db_password: blastoff
 
 nginx_server_name: "54.149.172.78"
 
-django_settings_file: settings
+django_settings_file: test_mezzanine.test_mezzanine.settings
 
 #su_username: kremerdesign
 #su_email: kremerdesign@gmail.com
