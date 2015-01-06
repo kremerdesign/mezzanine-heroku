@@ -15,7 +15,6 @@
     command: syncdb
     app_path: '{{ project_path }}'
     virtualenv: '{{ virtualenv_path }}'
-    settings: '{{ django_settings_file }}'
   tags: django
 
 - name: Run Django migrations
@@ -23,7 +22,6 @@
     command: migrate
     app_path: '{{ project_path }}'
     virtualenv: '{{ virtualenv_path }}'
-    settings: '{{ django_settings_file }}'
   tags: django
 
 
@@ -32,5 +30,4 @@
     command: collectstatic
     app_path: '{{ project_path }}'
     virtualenv: '{{ virtualenv_path }}'
-    settings: '{{ django_settings_file }}'
   tags: django
