@@ -1,7 +1,7 @@
 ---
 
 virtualenv_path: "/home/ubuntu/.virtualenvs/test_mezzanine"
-git_repo: https://github.com/kremerdesign/ru_blog_analytics.git
+git_repo: https://github.com/kremerdesign/mezzanine-heroku.git
 project_name: test_mezzanine
 project_path: "/home/ubuntu/{{ project_name }}"
 requirements_file: "{{ project_path }}/requirements.txt"
