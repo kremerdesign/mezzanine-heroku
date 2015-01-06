@@ -12,7 +12,7 @@
 
 - name: Run Django migrations
   django_manage:
-    command: migrate
+    command: syncdb
     app_path: '{{ project_path }}'
     virtualenv: '{{ virtualenv_path }}'
     settings: '{{ django_settings_file }}'
