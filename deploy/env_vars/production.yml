@@ -1,0 +1,15 @@
+---
+
+db_name: "test_mezzanine"
+
+db_user: "test_mezzanine"
+db_password: blastoff
+
+nginx_server_name: "54.149.172.78"
+
+django_settings_file: test_mezzanine.settings
+
+#su_username: kremerdesign
+#su_email: kremerdesign@gmail.com
+#su_password: blastoff
+#
